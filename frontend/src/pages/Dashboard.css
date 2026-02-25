@@ -1,0 +1,45 @@
+.dashboard-wrapper {
+  background: #f4f7fb;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: #1e293b;
+}
+
+/* ===== STAT CARDS ===== */
+
+.stat-card {
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  transition: 0.3s ease;
+  min-height: 140px;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-title {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 15px;
+}
+
+/* ===== CHART CARDS ===== */
+
+.chart-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+}
